@@ -1,7 +1,9 @@
 spring:
   application:
     name: oder-service
-    
+  cloud:
+    config:
+      override-none: true   
 server:
   port: 8201  
   
